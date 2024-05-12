@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int n;
-    cout<< " enter a num :";
+    cout<< "Enter a num :";
     cin >> n;
     
     int i = 1;
@@ -19,3 +19,13 @@ int main(){
         i = i+1;
     }
 }
+
+/* 
+    Input and Output
+    Enter a num :5
+    A A A A A 
+    B B B B B 
+    C C C C C 
+    D D D D D 
+    E E E E E 
+*/
