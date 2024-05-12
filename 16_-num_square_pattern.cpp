@@ -14,8 +14,18 @@ int main(){
             cout << j << " ";
             j = j - 1; 
         }
+
+        /*
+        //Another approach
+        
+        int j = 1;
+        while(j<=n){
+            cout << n - j+1 << " ";
+            j = j+1;
+        }
+        */
+
         cout << "\n";
         i = i+1;
     }
 }
-
