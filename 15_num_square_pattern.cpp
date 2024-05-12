@@ -7,13 +7,13 @@ int main()
     int n;
     cin >> n;
 
-    int i = 1;
+    int i = 1; // it is for the row
     while(i<=n)
     {
-        int j = 1;
+        int j = 1; // It is for column
         while(j<=n)
         {
-            cout << j;
+            cout << j <<" ";
             j = j+1;
         }
         cout << "\n";
@@ -21,3 +21,12 @@ int main()
     }
     return 0;
 }
+
+//input output 
+/*
+Enter the No. for pattern : 4
+1 2 3 4 
+1 2 3 4 
+1 2 3 4 
+1 2 3 4 
+*/
