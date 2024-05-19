@@ -37,6 +37,7 @@ i-->4   D       E       F       G
 used formula
 first lets check with
 i + j -1
+(1 + 1 -1 = 1 ~ A)
 using this we will get the value but how to implement in the code 
 
 i + j -1 = 1 --> 'A' //It gives A
@@ -49,4 +50,5 @@ i + j -1 + A-1 = 1 + A-1
 finally we get 
 
 'A' + i + j -2 = 'A'
+
 */
