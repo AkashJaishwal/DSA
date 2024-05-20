@@ -72,5 +72,42 @@ int main()
     }
 }
 
+*/
+
+
+/*
+
+For patter
+Enter a number : 4
+1 2 3 4
+  2 3 4
+    3 4
+      4
+
+int main()
+{
+    int n;
+    cout << "Enter a number : ";
+    cin >> n;
+
+    int i = 1;
+    while(i <= n){
+        int j = 1;
+        int space = 1;
+
+        while(space < i){
+            cout << " " << " ";
+            space += 1;
+        }
+
+        while(j <= n - i + 1){
+            cout << j + i - 1 << " ";
+            j = j + 1;
+        }
+        cout << endl;
+        i = i + 1;
+    }
+}
+
 
 */
