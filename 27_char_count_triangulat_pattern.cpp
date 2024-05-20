@@ -20,3 +20,15 @@ int main(){
         i = i + 1;
     }
 }
+
+/*
+Input and Output 
+
+Enter a num : 5
+A 
+B C 
+D E F 
+G H I J
+K L M N O
+
+*/
