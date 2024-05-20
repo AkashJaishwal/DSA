@@ -19,3 +19,15 @@ int main(){
         i = i + 1;
     }
 }
+
+/*
+Input and Output 
+
+Enter a Nubmer : 5
+A 
+B C 
+C D E 
+D E F G 
+E F G H I
+
+*/
