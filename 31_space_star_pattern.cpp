@@ -19,6 +19,7 @@ int main()
         while (j <= i){
             cout << "*" << " "; //Here the extra space is just to maintain some good space also can be removed but have to remove from above one also
             j = j + 1;
+            // j++; //It can be also used as it is the increment operator
         }
         cout << endl;
         i = i + 1;
