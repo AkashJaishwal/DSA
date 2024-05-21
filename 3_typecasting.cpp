@@ -10,8 +10,11 @@ int main()
     char ch = 98;
     cout << ch << endl;
 
-    char ch1 = 123456;
+    char ch1 = 65;  // here the number is ASCAII value so it is getting converted to the int value
     cout << ch1 << endl;
+
+    int num = 'C';
+    cout << "ASCAII " << num << endl ;
 
     /*
         warning: overflow in implicit constant conversion [-Woverflow]
@@ -30,6 +33,6 @@ int main()
     unsigned int u = 122;
     cout << u << endl;
 
-    unsigned int u1 = -122;
+    unsigned int u1 = -122; // without using signed it will give random number 
     cout << u1 << endl;
 }

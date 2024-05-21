@@ -13,3 +13,23 @@ int main(){
     }
     cout <<"The sum of even number : " << sum;
 }
+
+/* 
+Practice session
+int main()
+
+{
+    int n;
+    cin >> n;
+
+    int i = 0;
+    int sum = 0;
+
+    while (i <= n){
+        sum += i;
+        i += 2;
+    }
+
+    cout << sum;
+
+} */
