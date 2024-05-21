@@ -31,7 +31,7 @@ int main()
 
 
         /*
-        // Another approach 
+        // Another easy approach 
         int k = i - 1;
         while (k){
             cout << k << " ";
@@ -43,3 +43,15 @@ int main()
         i = i + 1;
     }   
 }
+
+/* 
+Input and Output
+
+Enter a Num : 5
+        1
+      1 2 1
+    1 2 3 2 1
+  1 2 3 4 3 2 1
+1 2 3 4 5 4 3 2 1
+
+ */
