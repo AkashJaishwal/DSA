@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-    int n ; 
+    int n , m; 
     cin >> n;
+    cin >> m;
 
-    cout << ~n;
+
+    cout << "n & m" << n&m << endl;
+    
 }
