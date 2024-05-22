@@ -1,5 +1,7 @@
-       // int c = 1;
-        // while (c<= n-c){
-        //     cout << n -a-c+ 2 << " ";
-        //     c++;
+int b = 1;
+        // int count2 = n;
+        // while (b <= (a-1)){
+        //     cout << count2 << " ";
+        //     count2 --;
+        //     b++;
         // }
