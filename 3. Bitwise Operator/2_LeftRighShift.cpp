@@ -10,5 +10,4 @@ int main()
     cout << (19<<1) << endl;
     cout << (21<<2) << endl;
     cout << (5>>1);
-    
 }
