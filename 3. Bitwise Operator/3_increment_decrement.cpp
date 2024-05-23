@@ -14,8 +14,14 @@ int main()
     int i = 2;
     int j = 3;
 
-    cout << i++; // 2
-    cout << ++i; // 4
-    cout << i++; // 4
-    cout << ++i; // 6
+    cout << i++ << endl;// 2
+    cout << ++i << endl; // 4
+    cout << i++ << endl;  // 4
+    cout << ++i << endl; // 6
+
+    cout << j-- << endl;// 3
+    cout << --j << endl; // 1
+    cout << j-- << endl;  // 1
+    cout << --j; // -1
+
 }
