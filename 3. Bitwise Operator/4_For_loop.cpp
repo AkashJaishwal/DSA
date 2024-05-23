@@ -7,16 +7,16 @@ int main()
     cout << "Enter a Num for Sum : ";
     cin >> n;
     
-    // int sum = 0;
-    // for(int i=0; i<=n; i++)
-    // {
-    //     cout << i << " ";
-    //     sum = sum + i;
-    // }
-    // cout << endl << sum;
-    // return 0;
+    /* int sum = 0;
+    for(int i=0; i<=n; i++)
+    {
+        cout << i << " ";
+        sum = sum + i;
+    }
+    cout << endl << sum;
+    return 0; */
 
-    int i = 0;
+    /* int i = 0;
     for (;;){
         if (i <= n){
             cout << i << endl;
@@ -25,5 +25,13 @@ int main()
         else {
             break; 
         }
+    } */
+
+/* 
+    for(int i=0,j=3; i<=n && j>=1; i++, j--)
+    {
+        cout << i << " " << j << endl;
     }
+ */
+
 }
