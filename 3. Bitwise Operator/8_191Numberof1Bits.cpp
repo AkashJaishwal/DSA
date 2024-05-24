@@ -44,8 +44,6 @@ Constraints:
 
 #include <iostream>
 using namespace std;
-
-
 class Solution {
 public:
     int hammingWeight(int n) {
@@ -71,3 +69,4 @@ int main()
     cout << "Hamming Weight of " << n << " is: " << result << endl;
     return 0;
 }
+
