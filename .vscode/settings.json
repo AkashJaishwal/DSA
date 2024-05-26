@@ -4,7 +4,9 @@
         "ostream": "cpp",
         "ratio": "cpp",
         "string": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "valarray": "cpp",
+        "cstdlib": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
