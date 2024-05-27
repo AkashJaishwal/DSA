@@ -18,11 +18,12 @@ int main()
     cout << result;
 } */
 
-int power (){
+int power()
+{
     int a, b;
     cin >> a >> b;
     int ans = 1;
-    for(int i = 1; i<= b; i++)
+    for (int i = 1; i <= b; i++)
     {
         ans = ans * a;
     }
@@ -33,5 +34,9 @@ int main()
 {
     // int a, b;
     int result = power();
-    cout << "Answer is : " << result;
+    cout << "Answer is : " << result << endl;
+    result = power();
+    cout << "Answer is : " << result << endl;
+    result = power();
+    cout << "Answer is : " << result << endl;
 }
