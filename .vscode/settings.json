@@ -6,7 +6,8 @@
         "string": "cpp",
         "iosfwd": "cpp",
         "valarray": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "random": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
