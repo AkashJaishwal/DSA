@@ -8,7 +8,10 @@
         "valarray": "cpp",
         "cstdlib": "cpp",
         "random": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
