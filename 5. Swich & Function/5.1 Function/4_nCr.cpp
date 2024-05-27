@@ -12,9 +12,11 @@ int factorial(int n){
 
 int nCr(int n, int r)
 {
-    int num = factorial(n);
-    int denom = factorial(r)*factorial(n-r);
-    return num/denom;
+    // int num = factorial(n);
+    // int denom = factorial(r)*factorial(n-r);
+    // return num/denom;
+
+    return (factorial(n)/((factorial(r))*factorial(n-r)));
 }
 
 int main()
