@@ -5,7 +5,11 @@ int Fibonnaci(int n)
 {
     int a = 0, b = 1;
     int nextnum = 0;
-    for (int i = 1; i <= n-2; i++)
+    if (n == 2)
+    {
+        return 1;
+    }
+    for (int i = 1; i <= n - 2; i++)
     {
         nextnum = a + b;
         a = b;
