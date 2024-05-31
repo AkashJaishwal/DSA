@@ -57,4 +57,7 @@ int main()
     cout << endl << "Everthing is fine" << endl << endl;
 
     return 0;
+
+
+    //we learn about the function declaration and calling
 }
