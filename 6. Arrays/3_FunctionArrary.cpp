@@ -54,6 +54,14 @@ int main()
     // printArray(fifth, 10);
 
 
+    //size of 
+
+    int fifthSize = sizeof(fifth)/sizeof(int);
+    cout << endl << "Size is : " << fifthSize;
+
+
+    //char array
+
     cout << endl << "Everthing is fine" << endl << endl;
 
     return 0;
