@@ -36,6 +36,7 @@ int main()
 
     int num[100];
 
+    cout << "Enter Num : ";
     for(int i=0; i<size; i++){
         cin >> num[i];
     }
