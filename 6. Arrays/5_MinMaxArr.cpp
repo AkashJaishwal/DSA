@@ -5,27 +5,29 @@ using namespace std;
 
 int getMax(int num[], int n)
 {
-    int max = INT_MIN; // This calls from from limits.h 
+    int maxi = INT_MIN; // This calls from from limits.h 
     
     for (int i=0; i<n; i++){
-        if(num[i] > max){
-            max = num[i];
-        }
+        maxi = max(num[i], maxi);
+        // if(num[i] > max){
+        //     max = num[i];
+        // }
     }
     //return the maximum value
-    return max;
+    return maxi;
 }
 
 int getMin(int num[], int n)
 {
-    int min = INT_MAX; // This calls from from limits.h 
+    int mini = INT_MAX; // This calls from from limits.h 
     for (int i=0; i<n; i++){
-        if(num[i] < min){
-            min = num[i];
-        }
+        mini = min (num[i], mini);
+        // if(num[i] < min){
+        //     min = num[i];
+        // }
     }
     //return the minimum value
-    return min;
+    return mini;
 }
 
 int main()
