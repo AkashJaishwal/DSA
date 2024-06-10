@@ -51,6 +51,13 @@ int main()
 #include <iostream>
 using namespace std;
 
+void swapping(int &a, int &b){
+    int temp = 0;
+    temp = a;
+    a = b;
+    b = temp;
+}
+
 void reverseArray(int arr[], int size)
 {
     int start = 0;
@@ -58,7 +65,7 @@ void reverseArray(int arr[], int size)
 
     while (start <= end)
     {
-        swap(arr[start], arr[end]);
+        swapping(arr[start], arr[end]);
         start++;
         end--;
     }
