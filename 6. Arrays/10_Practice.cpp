@@ -1,4 +1,4 @@
-/* 
+/*
 
 #include <iostream>
 using namespace std;
@@ -51,13 +51,16 @@ int main()
 #include <iostream>
 using namespace std;
 
-void swapping(int &a, int &b){
+// Making the swapping function
+void swapping(int &a, int &b)
+{
     int temp = 0;
     temp = a;
     a = b;
     b = temp;
 }
 
+// reverse the array
 void reverseArray(int arr[], int size)
 {
     int start = 0;
