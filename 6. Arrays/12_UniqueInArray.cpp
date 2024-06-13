@@ -1,14 +1,12 @@
 #include<iostream>
 using namespace std;
 
-void uniqueElement(int arr[], int size){
+int uniqueElement(int arr[], int size){
+    int ans = 0;
     for(int i=0; i<size; i++){
-        for(int j=i; j<size; j++){
-            if(arr[i] != arr[j]){
-                cout << arr[i] << " ";
-            }
-        }
+        ans = ans ^ arr[i];
     }
+    return ans;
 }
 
 int main(){
@@ -23,5 +21,5 @@ int main(){
     }
 
     cout << "Unique Elements are : " << endl;
-    uniqueElement(arr, n);
+    cout << uniqueElement(arr, n);
 }
