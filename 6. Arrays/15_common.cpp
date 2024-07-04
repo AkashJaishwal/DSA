@@ -1,13 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int common(int arr[], int size)
+/* int common(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
         for(int j = 1; j < size; j++){
             if (arr[i]==arr[j]){
                 return arr[j];
+            }
+        }
+    }
+} */
+
+int common(int arr[], int size){
+    for(int i=0; i < size; i++){
+        for(int j=1; j < size; j++){
+            if(arr[i] == arr[j]){
+                return arr[i];
             }
         }
     }
