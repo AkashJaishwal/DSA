@@ -2,8 +2,8 @@
 #include <vector>
 using namespace std;
 
-bool uniqueOccurrences(vector<int>& arr) {
-    
+bool uniqueOccurrences(vector<int>& arr, int size) {
+    // for
 }
 
 int main(){
@@ -16,4 +16,5 @@ int main(){
     for(int i=0; i<n; i++){
         cin >> arr[i];
     }
+    cout << uniqueOccurrences(arr, n);
 }
