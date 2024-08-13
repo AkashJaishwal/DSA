@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-/*
-void findDuplicate(int arr[], int n) {
+
+/* void findDuplicate(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         bool isDuplicate = false;
         for (int j = 0; j < i; j++) {
@@ -22,33 +22,17 @@ void findDuplicate(int arr[], int n) {
     }
 } */
 
-vector findDuplicate(int arr[], int size)
-{
-    vector<int> duplicates;
-    for (int i = 0; i < nums.size() - 1; i++)
-    {
-        for (int j = i + 1; j < nums.size(); j++)
-        {
-            if (nums[i] == nums[j])
-            {
-                bool found = false;
-                for (int k = 0; k < duplicates.size(); k++)
-                {
-                    if (duplicates[k] == nums[i])
-                    {
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found)
-                {
-                    duplicates.push_back(nums[i]);
-                }
-                break;
-            }
-        }
+int findDuplicate(int arr[], int size){
+    
+    int ans = 0;
+    for(int i=0; i<size; i++){
+        ans = ans ^ arr[i];
     }
-    return duplicates;
+
+    for(int i=1; i<size; i++){
+        ans = ans ^ i;
+    }
+    return ans;
 }
 
 int main()
@@ -64,8 +48,7 @@ int main()
         cin >> arr[i];
     }
 
-    cout << "Duplicates : ";
-    findDuplicate(arr, n);
+    cout << "Duplicates : " << findDuplicate(arr, n);
     cout << endl;
 
     return 0;
