@@ -25,7 +25,7 @@ Enter a Num for Sum : 10
  */
 
 
-int main (){
+/* int main (){
     int n;
     cin >> n;
 
@@ -41,4 +41,23 @@ int main (){
         y = next;
         
     }
+} */
+
+int fib(int n,int x,int y){
+    for (int i = 1; i<=n-2; i++)
+    {
+        int next = x+y;
+        cout << next << " ";
+        x = y;
+        y = next;
+    }
+}
+
+int main(){
+    int x = 0;
+    int y = 1;
+    int n;
+    cin >> n;
+    cout << x << " " << y << " ";
+    return fib(n,x,y);
 }
